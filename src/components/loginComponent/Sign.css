@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    }
+
+    .login-page{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #93BFCF;;
+    }
+    
+    .sign-in-container{
+      width: 380px;
+      height: 420px;
+      background-color:white;
+      border-radius: 20px;
+      box-shadow: 5px 10px 18px #395144;
+    }
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      padding: 22px;
+    }
+    
+    .sign-in-container h1{
+      font-size: 30px;
+      font-weight: 600;
+    }
+    
+    label{
+      height: 200px;
+      padding-right: 180px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    
+    input{
+      border-style: solid;
+      outline-color:rgba(0, 0, 0, 0.829);
+      background-color: white;
+      height: 18rem;
+      width: 80%;
+      border-radius: 10px;
+      padding-left: 5px;
+      font-size: 13px;
+    }
+    
+    input::placeholder{
+      color: black;
+      opacity: 0.7;
+    }
+    
+    button{
+      height: 16rem;
+      width: 80%;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      background-color: #6096B4;
+    }
+    
+    button:hover{
+     text-decoration: underline; 
+    }
+    
+    .link{
+      color: #2997d2e3;
+    }
+
+    .footer{
+      margin-top: 10px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      .login-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #93bfcfac;
+      }
+
+      .sign-in-container{
+        width: 300px;
+        height: 300px;
+        background-color:white;
+        border-radius: 20px;
+        box-shadow: 5px 10px 18px #395144;
+      }
+
+      label{
+        height: 200px;
+        padding-right: 140px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+
+      .footer{
+        margin-top: 10px;
+        font-size: 13px;
+      }
+    }
+    
